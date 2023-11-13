@@ -68,7 +68,7 @@ for(i = 0; i < pinkAcres.length; i++) {
 
 
 // probably an easier way to do this, but I was going to create new variables to get total of each orchard, 
-// then add those together to get totalAcres
+// then add those together to get totalAcres...is there a more efficient way? Can you provide the solution? =)
 
 totalAcres = totalFuji + totalGala + totalPink
 
@@ -176,6 +176,8 @@ for (let i = 0; i < pinkAcres.length; i++) {
     pinkTons.push(pinkAcres[i] * 6.5)
 }
 console.log(pinkTons)
+
+// can you please show me the slice method for this problem?
 
 
 // ^this is how many tons picked for each variety
